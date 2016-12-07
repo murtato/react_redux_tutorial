@@ -19,3 +19,4 @@ Compile
 ```
 npm run compile
 ```
+<!-- Refer to this as a minimal React starter app -->
