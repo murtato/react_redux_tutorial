@@ -1,2 +1,7 @@
 node_modules
 www/bundle.js
+npm-debug.log
+
+# IntelliJ
+*.iml
+/.idea
