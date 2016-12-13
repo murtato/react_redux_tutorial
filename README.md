@@ -4,11 +4,6 @@ Following from tutorial by andrewhfarmer.com/react-from-scratch. Plan is to crea
 
 Usage
 ---
-Start the development server with this command:
-```
-npm start
-```
-
 Setup
 ```
 npm install
@@ -19,4 +14,10 @@ Compile
 ```
 npm run compile
 ```
+
+Start the development server with this command:
+```
+npm start
+```
+
 <!-- Refer to this as a minimal React starter app -->
