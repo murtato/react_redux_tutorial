@@ -22,7 +22,7 @@ const App = () => {
 // put it on the page (in the DOM)
 document.addEventListener('DOMContentLoaded', function() {
   ReactDOM.render(
-    React.createElement(Counter),
+    React.createElement(Counter), //renders the click Counter
     document.getElementById('mount'),
     <App />, // placing SearchBar here and hoping it doesn't break... much
     document.querySelector('.container')
