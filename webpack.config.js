@@ -1,32 +1,26 @@
-var path = require('path');
-
-var config = {
-  context: path.join(__dirname, 'src'),
+module.exports = {
   entry: [
-    './index.js',
+    './src/index.js'
   ],
   output: {
-    path: path.join(__dirname, 'www'),
-    filename: 'bundle.js',
+    path: __dirname,
+    publicPath: '/',
+    filename: 'bundle.js'
   },
   module: {
-    loaders: [
-      {
-        test: /\.js$/,
-        exclude: /node_modules/,
-        loaders: ['babel'],
-      },
-    ],
-  },
-  resolveLoader: {
-    root: [
-      path.join(__dirname, 'node_modules'),
-    ],
+    loaders: [{
+      exclude: /node_modules/,
+      loader: 'babel',
+      query: {
+        presets: ['react', 'es2015', 'stage-1']
+      }
+    }]
   },
   resolve: {
-    root: [
-      path.join(__dirname, 'node_modules'),
-    ],
+    extensions: ['', '.js', '.jsx']
   },
+  devServer: {
+    historyApiFallback: true,
+    contentBase: './'
+  }
 };
-module.exports = config;

@@ -1,23 +1,25 @@
-# react_redux_tutorial
+# ReduxSimpleStarter
 
-Following from tutorial by andrewhfarmer.com/react-from-scratch. Plan is to create a React app and build dependencies from scratch to understand Webpack, Babel, and other modules
+Interested in learning [Redux](https://www.udemy.com/react-redux/)?
 
-Usage
----
-Setup
-```
-npm install
-```
-Compile
----
+###Getting Started###
+
+There are two methods for getting started with this repo.
+
+####Familiar with Git?#####
+Checkout this repo, install dependencies, then start the gulp process with the following:
 
 ```
-npm run compile
+	> git clone git@github.com:StephenGrider/ReduxSimpleStarter.git
+	> cd ReduxSimpleStarter
+	> npm install
+	> npm start
 ```
 
-Start the development server with this command:
-```
-npm start
-```
+####Not Familiar with Git?#####
+Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
 
-<!-- Refer to this as a minimal React starter app -->
+```
+	> npm install
+	> npm start
+```
